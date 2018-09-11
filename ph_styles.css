@@ -45,6 +45,10 @@ body {
 
 header {
     background-color: black;
+    font-style: normal;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px 0px 10px 0px;
 }
 
 p {
@@ -59,10 +63,7 @@ body>p {
 }
 
 address {
-    font-style: normal;
     text-align: center;
-    font-size: 0.9em;
-    padding: 10px 10px;
 }
 
 /* Navigation Styles */
@@ -90,7 +91,7 @@ section.playbill h1 {
     font-size: 3em;
     font-weight: normal;
     margin: 0px;
-    padding: 20px 0px 10px 20px
+    padding: 20px 0px 10px 20px;
 }
 
 section#play1 h1 {
@@ -133,6 +134,5 @@ dt {
 
 dd {
     font-size: 1.3em;
-    margin-left: 0px;
-    margin-bottom: 10px
+    margin: 0px 0px 10px 0px;
 }
