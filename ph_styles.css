@@ -1,17 +1,21 @@
 @charset "utf-8";
+/* This can also contain any unicode characters */
 
+/* This creates the font for the website */
 @font-face {
     font-family: 'Champagne';
     src: url('cac_champagne.woff') format('woff'),
         url('cac_champagne.ttf') format('ttf');
 }
 
+/* This creates the font for the website */
 @font-face {
     font-family: 'Grunge';
     src: url('1942.woff') format('woff'),
         url('1942.tff') format('ttf');
 }
 
+/* This creates the font on the website */
 @font-face {
     font-family: 'Dobkin';
     src: url('DobkinPlain.woff') format('woff'),
@@ -31,6 +35,8 @@
 
 */
 /* Structural Styles */
+
+/* This creates the background color of the html element */
 html {
     background-color: hsl(91, 8%, 56%);
     font-style: normal;
@@ -38,11 +44,13 @@ html {
     padding: 10px 0px 10px 0px;
 }
 
+/* This does the background color and addes font to the body tag */
 body {
     background-color: hsl(58, 31%, 84%);
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
+/* This creates the background color, font style, text align, font size, and padding for the header tag */
 header {
     background-color: black;
     font-style: normal;
@@ -51,28 +59,33 @@ header {
     padding: 10px 0px 10px 0px;
 }
 
+/* This adds the font-size, margin, and padding to the paragraph tag */
 p {
     font-size: 1.1em;
     margin: 0%;
     padding: 5px 25px 25px 25px;
 }
 
+/* This adds the font size and text align to the body and paragraph tag */
 body>p {
     font-size: 1.1em;
     text-align: center;
 }
 
+/* This adds the text align to the address tag */
 address {
     text-align: center;
 }
 
 /* Navigation Styles */
+/* This adds the font and padding to the navigation bar */
 nav a {
     font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+/* This adds color, background color, and text decoration when you look at the navigation bar */
 nav a:visited,
 nav a:link {
     color: white;
@@ -80,6 +93,7 @@ nav a:link {
     background-color: hsla(0, 0%, 42%, 0.4);
 }
 
+/*  */
 nav a:hover,
 nav a:active {
     color: hsla(0, 0%, 100%, 0.7);
@@ -94,44 +108,55 @@ section.playbill h1 {
     padding: 20px 0px 10px 20px;
 }
 
+/* This adds the font to the id play 1 h1 element */
 section#play1 h1 {
     font-family: Champagne, cursive;
 }
 
+/* This adds the font to the id play 2 h1 element */
 section#play2 h1 {
     font-family: Grunge, Times New Roman, Times, Serif;
 }
 
+/* This adds the font to the id play 3 h1 element */
 section#play3 h1 {
     font-family: Impact, Charcoal, sans-serif;
 }
 
+/* This adds the font to the id play 4 h1 element */
 section#play4 h1 {
     font-family: Dobkin, cursive;
 }
 
+/* This adds the background color to the id play 1 h1 element */
 section#play1 {
     background-color: hsl(240, 100%, 88%);
 }
 
+/* This adds the backgroud color to the id play 2 h1 element */
 section#play2 {
     background-color: hsl(25, 88%, 73%);
 }
 
+/* This adds the background color to the id play 3 and the h1 element */
 section#play3 {
     background-color: hsl(0, 100%, 75%);
 }
 
+/* This adds the background color to the id play 4 for the h1 element */
 section#play4 {
     background-color: hsl(296, 86%, 86%);
 }
 
 /* Description List Styles */
+
+/* This adds the font size and font weight for the dt element */
 dt {
     font-size: 1.3em;
     font-weight: bold;
 }
 
+/* This adds the font size and margin to the dd element */
 dd {
     font-size: 1.3em;
     margin: 0px 0px 10px 0px;
